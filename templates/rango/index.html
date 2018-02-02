@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
-{% load staticfiles %} <!-- inform Django that we are using static files -->
+{% load staticfiles %} <!-- inform Django that we are using static files -->
+
 
 <html>
 
@@ -24,6 +25,7 @@
 		{% else %}
 			<strong>There are no categories present.</strong>
 		{% endif %}
+
 		</div>
 		<div>
 		<h3>Most Viewed Pages</h3>
@@ -43,6 +45,7 @@
 
 		<div>
 			<a href="/rango/about/">About Rango</a><br />
+			<a href="/rango/add_category/">Add a New Category</a><br />
 			<img src="{% static "images/rango-picture.jpg" %}" alt="Picture of Rango" /> <!-- Tell Django where to find the picture-->
 		</div>
 

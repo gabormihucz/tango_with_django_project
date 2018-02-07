@@ -1,0 +1,1 @@
+python run_tests.py -u https://github.com/magnarch/tango_with_django_project -s 2239495m -d 2018-01-25
